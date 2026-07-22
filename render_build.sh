@@ -9,4 +9,7 @@ pip install pipenv
 
 pipenv install
 
+export PYTHONPATH=src
+export FLASK_APP=src/app.py
+
 pipenv run upgrade
